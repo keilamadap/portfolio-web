@@ -1,18 +1,34 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+
 const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            Olá, eu sou Keila
+            <span className="text-white bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              Olá, <br />
+              <TypeAnimation
+                sequence={[
+                  "meu nome é Keila",
+                  1000,
+                  "Sou desenvolvedora Front-end",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={20}
+                repeat={Infinity}
+              />
+            </span>
           </h1>
+
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            eos tempora, quidem rem impedit placeat nesciunt facere laborum
-            nulla laudantium esse, quam est culpa nihil provident inventore
-            consequuntur natus harum.
+            Seja bem-vindo ao meu portfólio, aqui é onde compartilho os projetos
+            que moldaram minha trajetória profissional e pessoal. <br /> Vamos
+            nos conectar e criar algo incrível juntos.
           </p>
           <div>
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
