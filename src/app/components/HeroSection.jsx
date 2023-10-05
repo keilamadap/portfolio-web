@@ -26,8 +26,8 @@ const HeroSection = () => {
             trajetória profissional, destacando os projetos em que participei
             profissionalmente, bem como aqueles que desenvolvi para meu
             crescimento pessoal. Além disso, você encontrará algumas informações
-            sobre quem sou. Sinta-se à vontade para explorar e conhecer mais
-            sobre minha jornada.
+            sobre quem sou. Sinta-se à vontade para conhecer mais sobre minha
+            jornada.
           </p>
           <div>
             <Link
