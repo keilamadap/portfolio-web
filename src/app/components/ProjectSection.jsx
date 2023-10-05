@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Rede Social de Cachorros",
+    title: "Rede Social para Cachorros",
     description:
       "Este projeto foi elaborado utilizando React e Vite, com a finalidade de aprimorar e aplicar conceitos fundamentais relacionados aos React Hooks. Nesta rede social para cachorros, é viável executar operações como registro do usuário, a redefinição de senha e, após um login bem-sucedido, os usuários tem acesso à sua conta pessoal, ao feed de conteúdo e à sessão de postagem de fotos. Para viabilizar essas funcionalidades, o front foi integrado às APIs REST disponibilizadas pela plataforma Origamidi.",
     image: "/images/projects/1.png",
@@ -20,6 +20,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/myfavpokedex",
     previewUrl: "https://keilamadap.github.io/myfavpokedex/",
+  },
+  {
+    id: 2,
+    title: "Lista de Blogs",
+    description:
+      "Blog desenvolvido com React e styled-components, foi simulado uma API REST usando json-server para armazenar novos blogs criados, excluí-los e listá-los.",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/keilamadap/dojo-blog",
+    previewUrl: "https://keilamadap.github.io/dojo-blog/",
   },
 ];
 
