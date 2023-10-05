@@ -22,12 +22,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Seja muito bem-vindo ao meu portfólio! Aqui, compartilho sobre minha
-            trajetória profissional, destacando os projetos em que participei
-            profissionalmente, bem como aqueles que desenvolvi para meu
-            crescimento pessoal. Além disso, você encontrará algumas informações
-            sobre quem sou. Sinta-se à vontade para conhecer mais sobre minha
-            jornada.
+            Bem-vindo ao meu portfolio. Aqui, compartilho sobre projetos que
+            estou desenvolvendo e também um pouco sobre mim. Sinta-se a vontade
+            para explorar :)
           </p>
           <div>
             <Link
@@ -38,12 +35,9 @@ const HeroSection = () => {
             </Link>
             <Link
               href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-slate-700 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                {" "}
-                Baixar CV
-              </span>
+              Download CV
             </Link>
           </div>
         </div>
