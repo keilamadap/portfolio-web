@@ -7,7 +7,7 @@ import Image from "next/image";
 const Contacts = () => {
   return (
     <section
-      id="contato"
+      id="contacts"
       className="flex items-center justify-center mt-20 mb-20"
     >
       <div>
@@ -16,8 +16,9 @@ const Contacts = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          Atualmente estou em busca de novas oportunidades, meu inbox está
-          sempre disponível. Caso queira entrar em contato, sinta-se à vontade.
+          Atualmente estou em busca de novas oportunidades, sinta-se a vontade
+          para me seguir nas minhas redes sociais ou entrar em contato através
+          do e-mail ou telefone.
         </p>
         <div className="socials flex items-center justify-center gap-5">
           <Link href="https://www.github.com/keilamadap" target="_blank">

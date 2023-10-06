@@ -28,7 +28,7 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="#contato"
+              href="#contacts"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#e04372] hover:bg-slate-400 text-white"
             >
               Meu Contato
@@ -38,7 +38,7 @@ const HeroSection = () => {
               target="_blank"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-slate-700 hover:bg-slate-800 text-white mt-3"
             >
-              Currículo
+              Baixar Currículo
             </Link>
           </div>
         </div>
