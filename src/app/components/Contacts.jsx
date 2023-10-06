@@ -16,8 +16,8 @@ const Contacts = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          Atualmente estou em buscar de novas oportunidades, meu inbox está sem
-          disponível. Caso queira entrar em contato, sinta-se à vontade.
+          Atualmente estou em busca de novas oportunidades, meu inbox está
+          sempre disponível. Caso queira entrar em contato, sinta-se à vontade.
         </p>
         <div className="socials flex items-center justify-center gap-5">
           <Link href="https://www.github.com/keilamadap" target="_blank">
