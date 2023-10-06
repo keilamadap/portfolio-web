@@ -13,6 +13,8 @@ const TAB_DATA = [
         <li>NextJS</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Git</li>
+        <li>Azure</li>
       </ul>
     ),
   },
@@ -21,8 +23,14 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Universidade Federal do Rio Grande do Norte, Natal</li>
-        <li>Saint Francis University, PA</li>
+        <li>
+          Bacharel em Ciências e Tecnologias - Universidade Federal do Rio
+          Grande do Norte, Natal (2022)
+        </li>
+        <li>
+          Intercâmbio com duração de 18 meses realizado através do CSF - Saint
+          Francis University, PA/USA (2015)
+        </li>
       </ul>
     ),
   },
@@ -31,8 +39,8 @@ const TAB_DATA = [
     id: "languages",
     content: (
       <ul className="list-disc pl-2">
-        <li>Inglês</li>
-        <li>Espanhol</li>
+        <li>Inglês Avançado</li>
+        <li>Espanhol Intermediário</li>
       </ul>
     ),
   },
@@ -49,12 +57,13 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about-me">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 lg:h-[630px]">
         <Image
           alt="about-me"
           src="/images/girl_computer.jpg"
           width={600}
-          height={600}
+          height={700}
+          layout="fixed"
         />
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">

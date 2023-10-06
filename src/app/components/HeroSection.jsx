@@ -28,13 +28,14 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="/contact"
+              href="#contato"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#e04372] hover:bg-slate-400 text-white"
             >
               Meu Contato
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1y0D2oQ8aZ7_K8brVuOa7a_by56qMMcLK/view?usp=sharing"
+              target="_blank"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-slate-700 hover:bg-slate-800 text-white mt-3"
             >
               Currículo
@@ -44,7 +45,7 @@ const HeroSection = () => {
         <div className="col-span-4 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/Profile_Kei.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
