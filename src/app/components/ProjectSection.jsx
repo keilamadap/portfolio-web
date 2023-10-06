@@ -5,7 +5,7 @@ const projectsData = [
     id: 1,
     title: "Rede Social para Cachorros",
     description:
-      "Este projeto foi elaborado utilizando React e Vite, com a finalidade de aprimorar e aplicar conceitos fundamentais relacionados aos React Hooks. Nesta rede social para cachorros, é viável executar operações como registro do usuário, a redefinição de senha e, após um login bem-sucedido, os usuários tem acesso à sua conta pessoal, ao feed de conteúdo e à sessão de postagem de fotos. Para viabilizar essas funcionalidades, o front foi integrado às APIs REST disponibilizadas pela plataforma Origamidi.",
+      "Este projeto foi desenvolvido usando React e Vite com a finalidade de criar uma rede social para cachorros, foram usados conceitos fundamentais relacionados ao React Hooks, display grid e requisições de APIs REST. Na página de login é possível acessar a aplicação usando credenciais padrão de admin/senha: 'dog', mas também pode-se fazer o registro de um novo usuário. Uma vez logado, o usuário pode postar fotos e visualizar o feed de imagens, ao clicar em uma foto é exibido um modal onde permite a exclusão da foto caso o autor da postagem seja igual ao usuário atual.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/dogs-project",
@@ -15,7 +15,7 @@ const projectsData = [
     id: 2,
     title: "Pokedex",
     description:
-      "O desenvolvimento do aplicativo Pokedex foi integrado a API PokeApi e exibe uma lista de cards na página inicial com a proposta de selecionar os cards desejados e salvá-los em um índice de favoritos no topo da página. Neste projeto optei por utilizar o conceito do Context para tornar possível a transmissão dos dados de forma simplificada entre todos os componentes e utilizei LocalStorage para armazenar os Pokemons favoritados, também foi adicionado uma página de detalhes correspondente a cada pokemon!",
+      "Este projeto foi desenvolvido consumindo os dados da API REST disponibilizada pela PokeApi, desta forma é exibida uma listagem dos cards nas páginas iniciais e ao clicar em um card o usuário é direcionado para a página de detalhes do respectivo Pokemon. Foram utilizados hooks do React como Contexto para distribuição de dados de forma global, além de hooks essenciais como useState e useEffect. Ao favoritar um Pokemon seu valor é armazenado no localStorage exibindo os itens favoritados no indíce no topo da página.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/myfavpokedex",
@@ -25,7 +25,7 @@ const projectsData = [
     id: 2,
     title: "Lista de Blogs",
     description:
-      "Blog desenvolvido com React e styled-components, foi simulado uma API REST usando json-server para armazenar novos blogs criados, excluí-los e listá-los.",
+      "Este projeto de blog foi desenvolvido usando React e Styled-Components, foi simulado uma API REST usando JSON Server com a finalidade de listar os blogs default na página inicial, adicioná-los na aba de 'New Blog' e ao clicar no título do blog o usuário é redirecionado para a página de detalhes onde pode fazer a exclusão do blog. ",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/dojo-blog",

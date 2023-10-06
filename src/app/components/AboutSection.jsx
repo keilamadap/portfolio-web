@@ -52,25 +52,22 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           alt="about-me"
-          src="/images/about-image.png"
-          width={500}
-          height={500}
-          sx={{ border: "1px solid pink" }}
+          src="/images/girl_computer.jpg"
+          width={600}
+          height={600}
         />
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre Mim</h2>
           <p className="text-base lg:text-lg">
-            31 anos, vivendo em Natal - RN. Tenho bacharel em Ciências e
-            Tecnologias pela UFRN e sou entusiasta de tecnologias. Sou uma
-            pessoa muito curiosa e valorizo novas oportunidades de aprendizado
-            pois são elas que me motivam a sempre dar o melhor de mim! Sou
-            fascinada pelo desenvolvimento web e todas as tecnologias e
-            estratégias que o compõe, acredito que a criação de websites
-            intuitivos e com conteúdo confiável é uma responsabilidade que deve
-            ser levada a sério e por isso me mantenho atualizada das tecnologias
-            mais recentes para manter um constante desenvolvimento das minhas
-            habilidades.
+            Desenvolvedora FrontEnd apaixonada pela criação de aplicativos web
+            responsivos e interativos. Eu tenho experiência trabalhando com
+            JavaScript, React, TypeScript, NextJS, HTML, CSS, Git, Azure,
+            bibliotecas de componentes e frameworks CSS. Aprendo rápido e estou
+            sempre em busca de expandir meus conhecimentos e habilidades. Me
+            considero uma <span className="text-[#e04372]">team player</span> e
+            estou animada para trabalhar com outras pessoas para criar
+            aplicativos incríveis.
           </p>
 
           <div className="flex flex-row justify-start mt-8">
@@ -78,7 +75,6 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
               Tecnologias
             </TabButton>
 
