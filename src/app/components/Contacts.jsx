@@ -11,10 +11,10 @@ const Contacts = () => {
       className="flex items-center justify-center mt-20 mb-20"
     >
       <div>
-        <h5 className="text-xl font-bold text-white my-2">
+        <h2 className="text-center text-5xl font-bold text-white mt-20 mb-8 md:mb-12">
           Vamos nos conectar!
-        </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        </h2>
+        <p className="text-[#ADB7BE] mb-4 max-w-md text-center">
           {" "}
           Atualmente estou em busca de novas oportunidades, sinta-se a vontade
           para me seguir nas minhas redes sociais ou entrar em contato através
@@ -31,8 +31,8 @@ const Contacts = () => {
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
-        <div className="socials flex items-center justify-center gap-5 mt-5 ">
-          <p className="flex items-center gap-2">
+        <div className="socials flex flex-col items-center mt-5 ">
+          <p className="flex items-center gap-2 text-[#e04372]">
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Contacts = () => {
             </svg>
             keila.amadap@hotmail.com
           </p>
-          <p className="flex items-center gap-2">
+          <p className="flex items-center gap-2 text-[#e04372]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -22,9 +22,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Bem-vindo ao meu portfólio. Aqui compartilho sobre projetos que
-            estou desenvolvendo e também um pouco sobre mim. Sinta-se a vontade
-            para explorar :)
+            Bem-vindo ao meu portfólio. <br />
+            Aqui compartilho sobre projetos que estou desenvolvendo e também um
+            pouco sobre mim. <br /> Sinta-se a vontade para explorar :)
           </p>
           <div>
             <Link

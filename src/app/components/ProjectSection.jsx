@@ -5,7 +5,7 @@ const projectsData = [
     id: 1,
     title: "Rede Social para Cachorros",
     description:
-      "Este projeto foi desenvolvido usando React e Vite com a finalidade de criar uma rede social para cachorros, foram usados conceitos fundamentais relacionados ao React Hooks, display grid e requisições de APIs REST. Na página de login é possível acessar a aplicação usando credenciais padrão de admin/senha: 'dog', mas também pode-se fazer o registro de um novo usuário. Uma vez logado, o usuário pode postar fotos e visualizar o feed de imagens, ao clicar em uma foto é exibido um modal onde permite a exclusão da foto caso o autor da postagem seja igual ao usuário atual.",
+      "Este projeto foi desenvolvido seguindo o curso da Origamidi usando React e Vite com a finalidade de criar uma rede social para cachorros, foram usados conceitos fundamentais relacionados ao React Hooks, display grid e requisições de APIs REST. Na página de login é possível acessar a aplicação usando credenciais padrão de admin/senha: 'dog', mas também pode-se fazer o registro de um novo usuário. Uma vez logado, o usuário pode postar fotos e visualizar o feed de imagens, ao clicar em uma foto é exibido um modal onde permite a exclusão da foto caso o autor da postagem seja igual ao usuário atual.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/dogs-project",
@@ -25,7 +25,7 @@ const projectsData = [
     id: 2,
     title: "Lista de Blogs",
     description:
-      "Este projeto de blog foi desenvolvido usando React e Styled-Components, foi simulado uma API REST usando JSON Server com a finalidade de listar os blogs default na página inicial, adicioná-los na aba de 'New Blog' e ao clicar no título do blog o usuário é redirecionado para a página de detalhes onde pode fazer a exclusão do blog. ",
+      "Este projeto de blog foi desenvolvido seguindo o curso do React Ninja usando React e Styled-Components, foi simulado uma API REST usando JSON Server com a finalidade de listar os blogs default na página inicial, adicioná-los na aba de 'New Blog' e ao clicar no título do blog o usuário é redirecionado para a página de detalhes onde pode fazer a exclusão do blog. ",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/dojo-blog",
