@@ -22,7 +22,7 @@ const projectsData = [
     previewUrl: "https://keilamadap.github.io/myfavpokedex/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Lista de Blogs",
     description:
       "Este projeto de blog foi desenvolvido seguindo o curso do React Ninja usando React e Styled-Components, foi simulado uma API REST usando JSON Server com a finalidade de listar os blogs default na página inicial, adicioná-los na aba de 'New Blog' e ao clicar no título do blog o usuário é redirecionado para a página de detalhes onde pode fazer a exclusão do blog. ",
@@ -30,6 +30,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/keilamadap/dojo-blog",
     previewUrl: "https://keilamadap.github.io/dojo-blog/",
+  },
+  {
+    id: 4,
+    title: "Sistema Financeiro",
+    description:
+      "Sistema financeiro criado em React, TypeScript e Styled-components para estilização dos componentes. Neste sistema, você pode facilmente adicionar suas despesas e receitas. O sistema fará automaticamente o cálculo subtraindo as despesas do valor total das receitas e exibirá o saldo resultante na tela, destacando-o em vermelho se for negativo e em verde se for positivo.",
+    image: "/images/projects/4.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/keilamadap/expenses-project",
+    previewUrl: "https://keilamadap.github.io/expenses-project/",
   },
 ];
 
