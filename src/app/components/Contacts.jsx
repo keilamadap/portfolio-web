@@ -31,8 +31,8 @@ const Contacts = () => {
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
-        <div className="socials flex flex-col items-center mt-5 ">
-          <p className="flex items-center gap-2 text-[#e04372]">
+        <div className="socials flex flex-col items-left mt-12 ">
+          <p className="flex items-center gap-2 text-[#FFF]">
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Contacts = () => {
             </svg>
             keila.amadap@hotmail.com
           </p>
-          <p className="flex items-center gap-2 text-[#e04372]">
+          <p className="flex items-center gap-2 text-[#fff]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
