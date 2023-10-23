@@ -32,25 +32,16 @@ const projectsData = [
     gitUrl: "https://github.com/keilamadap/expenses-project",
     previewUrl: "https://keilamadap.github.io/expenses-project/",
   },
-  {
-    id: 5,
-    title: "Listagem de Carros",
-    description:
-      "Listagem de carros desenvolvida usando React e Styled-components. Neste sistema eu consumi os dados de um arquivo JSON e os usei para filtrar os carros a partir do seu modelo. Ao selecionar 'novo carro' é aberto um modal com um formulário para preenchimento e um novo carro é adicionado a listagem.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/keilamadap/listagem-carros",
-    previewUrl: "https://listagem-carros.vercel.app/",
-  },
+
   {
     id: 3,
-    title: "Lista de Blogs",
+    title: "Dropmail Tech Challenge ",
     description:
-      "Este projeto de blog foi desenvolvido seguindo o curso do React Ninja usando React e Styled-Components, foi simulado uma API REST usando JSON Server com a finalidade de listar os blogs default na página inicial, adicioná-los na aba de 'New Blog' e ao clicar no título do blog o usuário é redirecionado para a página de detalhes onde pode fazer a exclusão do blog. ",
-    image: "/images/projects/3.png",
+      "Aplicação desenvolvida em React/TypeScript que consome os dados da API Dropmail para exibição de email temporário, desta forma os usuários podem utilizar serviços sem expor seu email real. Foi utilizado a biblioteca de componentes Material UI e Styled-Components para estilização dos elementos, utilizei GraphQL para comunicação com a API, hooks do React e localStorage para armazenamento da sessão.",
+    image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/keilamadap/dojo-blog",
-    previewUrl: "https://keilamadap.github.io/dojo-blog/",
+    gitUrl: "https://github.com/keilamadap/dropmail",
+    previewUrl: "https://dropmail-nu.vercel.app/",
   },
 ];
 
