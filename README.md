@@ -2,6 +2,10 @@
   <h1>Portfolio - Keila</h1>
 </div>
 
+### Descrição do Projeto:
+
+Portfolio desenvolvido usando Next.js e Tailwind, neste portfolio exponho os principais projetos desenvolvidos e falo um pouco sobre minha trajetória.
+
 ### Tecnologias Utilizadas:
 
 - Javascript
