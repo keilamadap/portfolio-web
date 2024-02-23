@@ -43,6 +43,16 @@ const projectsData = [
     gitUrl: "https://github.com/keilamadap/dropmail",
     previewUrl: "https://dropmail-nu.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Landing page - ESM",
+    description:
+      "Com intuito de aumentar o SEO do cliente essa landing page foi criada utilizando NextJS, TypeScript e Styled-components, feita integração com a API para recebimento de e-mails através do formulário de contato.",
+    image: "/images/projects/esm.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://esmenezes.com.br/",
+  },
 ];
 
 const ProjectSection = () => {
